@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && cp -r assets interviews investigations dist/ 2>/dev/null; cp index.html style.css theme.json dist/ 2>/dev/null || true"
+    "build": "mkdir -p dist && cp -r assets interviews investigations dist/ 2>/dev/null; cp index.html article.html style.css theme.json dist/ 2>/dev/null || true"
   },
   "repository": {
     "type": "git",
